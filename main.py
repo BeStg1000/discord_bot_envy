@@ -7,7 +7,7 @@ from myserver import server_on
 intents = discord.Intents.default()
 intents.message_content = True
 intents.guilds = True
-intents.guild_members = True
+intents.members = True
 
 # ตั้งค่า Client และ Command Tree สำหรับ Slash Commands
 class MyBot(discord.Client):
